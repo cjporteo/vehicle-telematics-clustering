@@ -53,7 +53,7 @@ We then applied PCA, comparing the relationship between number of components and
 <br>
 K-means clustering was applied to group vehicle trips into groups, based off observed driver patterns (acceleration, speed, braking, sudden opening of the throttle, etc).
 <br>
-To evaluate model performance, the elbow method (with WCSS) and comparison of silhouette scores was used to select an optimal number of clusters.
+To evaluate model performance, the elbow method (with WCSS) and comparison of Silhouette scores was used to select an optimal number of clusters.
 
 ## Limitations and caveats
 - Data integrity here is questionable; accelerations of +70km/h/s are impossible, but show up in the dataset. These are filtered out for the purposes of this analysis, but consultation with data engineers and instrumentation documentation would be advised in practice.
