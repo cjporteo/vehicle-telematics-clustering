@@ -44,7 +44,7 @@ Data is provided courtesy of Yun Solutions. This proprietary dataset contains se
 ## Feature engineering
 First derivatives with respect to time were calculated for speed (to derive acceleration), throttle position, and engine RPM. These are useful since acceleration metrics tell us a lot about driver habit/behavior (e.g. frequent hard braking).
 <br>
-Various percentile-based statistics were calculated for a basket of suitable features, grouped on tripId. These features roughly capture the distribution of our metrics across and entire trip. Ex: what was the 99.9th percentile observed for acceleration during this outing?
+Various percentile-based statistics were calculated for a basket of suitable features, grouped on tripId. These features roughly capture the distribution of our metrics across an entire trip. Ex: what was the 99.9th percentile observed for acceleration during this outing?
 <br>
 Naturally, for our percentile calculations we must be diligent in excluding values of 0 (e.g. stopped car) since these will skew results undesirably.
 
