@@ -1,5 +1,7 @@
 # Exploring Vehicle Telematics Data from Kaggle 🚗💻
 
+![](https://i.ebayimg.com/images/g/6cYAAOSw9r1WA3V~/s-l400.jpg)
+
 ## 🧐 Links to the code (Jupyter Notebooks)
 [Data Wrangling and Manipulation](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/data_wrangling.ipynb)
 <br>
