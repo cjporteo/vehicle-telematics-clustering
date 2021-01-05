@@ -1,4 +1,4 @@
-# Exploring Vehicle Telematics Data 🚗💻
+# Exploring Vehicle Telematics Data from Kaggle 🚗💻
 
 ## 🧐 Links to the code (Jupyter Notebooks)
 [Data Wrangling and Manipulation](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/data_wrangling.ipynb)
