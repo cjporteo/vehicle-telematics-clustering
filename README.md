@@ -1,11 +1,11 @@
 # Exploring Vehicle Telematics Data from Kaggle 🚗💻
 
-![](https://i.imgur.com/oS39ekG.png)
-
 ## 🧐 Links to the code (Jupyter Notebooks)
 [Data Wrangling and Manipulation](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/data_wrangling.ipynb)
 <br>
 [Applying PCA and K-Means Clustering](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/modelling.ipynb)
+
+![](https://i.imgur.com/oS39ekG.png)
 
 ## 💭 About
 Curious to learn more about vehicle telemetry data and how to work with it, I found [this public dataset](https://www.kaggle.com/yunlevin/levin-vehicle-telematics) on **Kaggle** and decided to dive in.
