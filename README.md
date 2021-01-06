@@ -1,5 +1,10 @@
 # Exploring Vehicle Telematics Data from Kaggle 🚗💻
 
+## The dataset
+Data is provided courtesy of Yun Solutions. This proprietary dataset contains sensor and OBD data for over 4 months and around 30 vehicles. This data was generously made accessible for learning and analysis within the data science community.
+
+[link to data](https://www.kaggle.com/yunlevin/levin-vehicle-telematics?select=allcars.csv)
+
 ## 🧐 Links to the code (Jupyter Notebooks)
 [EDA / Data Wrangling and Manipulation](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/data_wrangling.ipynb)
 <br>
@@ -11,11 +16,6 @@
 Curious to learn more about vehicle telemetry data and how to work with it, I found [this public dataset](https://www.kaggle.com/yunlevin/levin-vehicle-telematics) on **Kaggle** and decided to dive in.
 <br>
 Seeing as this is an unlabelled dataset in terms of claims frequency/severity, constructing a supervised learning model to predict individual driver risk isn't feasible here. Instead, I applied K-means clustering to group similar "vehicle trips" together. Clustering similar drivers together based off of driving habits seems like the more intuitive and appropriate approach, but this dataset doesn't lend itself very naturally to that task (data is ID'd by trip and device, can't track data by driver).
-
-## The dataset
-Data is provided courtesy of Yun Solutions. This proprietary dataset contains sensor and OBD data for over 4 months and around 30 vehicles. This data was generously made accessible for learning and analysis within the data science community.
-
-[link to data](https://www.kaggle.com/yunlevin/levin-vehicle-telematics?select=allcars.csv)
 
 ## 📔 Resources used
 - [Telematics in Auto Insurance - Towards Data Science](https://towardsdatascience.com/telematics-in-auto-insurance-a886a03b5a88)
