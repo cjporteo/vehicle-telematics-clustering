@@ -1,7 +1,7 @@
 # Exploring Vehicle Telematics Data from Kaggle 🚗💻
 
 ## 🧐 Links to the code (Jupyter Notebooks)
-[Data Wrangling and Manipulation](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/data_wrangling.ipynb)
+[EDA / Data Wrangling and Manipulation](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/data_wrangling.ipynb)
 <br>
 [Applying PCA and K-Means Clustering](https://github.com/cjporteo/vehicle-telematics-clustering/blob/main/modelling.ipynb)
 
