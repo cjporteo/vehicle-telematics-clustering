@@ -59,3 +59,7 @@ To evaluate model performance, the elbow method (with WCSS) and comparison of Si
 - Data integrity here is questionable; accelerations of +70km/h/s are impossible, but show up in the dataset. These are filtered out for the purposes of this analysis, but consultation with data engineers and instrumentation documentation would be advised in practice.
 - What constitutes a "trip"? Some trips in our dataset span 100+ hours, which is perplexing to say the least. Again, these abnormally long "trips" are discarded for this analysis.
 - This dataset really needs supplementary outcome data (claim frequency/severity) in order to produce significant insight. This clustering approach was only conducted as an academic exercise, since there isn't much else we could do in terms of modelling with this dataset alone.
+
+## Ways to amplify this analyis (wish list)
+- Location data / road type. With this, we could attempt to develop a predictive model that could infer type of road based off of driving patterns.
+- As said before, claims data or accident data. The is the real key. If we had this, we could concretly prove which driving patterns are the riskiest, and look into incorporating driver behaviour into a more tailored ratemaking model.
